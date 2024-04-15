@@ -1,0 +1,96 @@
+#more-dt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin-top: 100px;
+}
+#moredb-head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1400px;
+}
+#moredb-head h1,
+#moredb-head h3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+#moredb-head h3 {
+  color: #ff000069;
+  background-color: rgba(255, 0, 0, 0.11);
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  height: fit-content;
+}
+#child-more-dt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1400px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#more-dto {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#more-dto .title {
+  display: none;
+}
+#child-more-dto {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.575);
+  border-top: 1px solid rgba(151, 151, 151, 0.575);
+  border-radius: 0px 10px 10px 10px;
+  margin: 10px 0px 20px 0px;
+  background-color: rgba(63, 63, 63, 0.11);
+}
+#DTtitl {
+  width: 150px;
+}
+
+#openBtnonvdeo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  cursor: pointer;
+  margin: 4px 10px;
+}
+.detail{
+  font-size: 11px;
+  margin: 3px;
+  color: rgba(255, 255, 255, 0.938);
+}
+.DateCD{
+  font-size: 12px;
+  margin: 2px;
+}
+#load{
+  
+}
+
+@media (max-width: 1400px) {
+  #more-dt {
+    margin-top: 70px;
+  }
+}
+@media (max-width: 800px) {
+  #moredb-head h1,
+  #moredb-head h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,136 @@
+#signUp {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  scroll-behavior: smooth;
+  background-image: url("https://i0.wp.com/www.smartprix.com/bytes/wp-content/uploads/2022/11/netflix-india.jpeg?ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#sign-logo {
+  margin: 2vw;
+}
+#sign-logo img {
+  width: 110px;
+  filter: grayscale(0.3);
+}
+#sign-formprn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#sign-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#sign-form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sign-form form h1 {
+  display: flex;
+  justify-content: start;
+  width: 300px;
+  margin-bottom: 30px;
+}
+#Sign-input {
+  display: flex;
+  flex-direction: column;
+}
+#Sign-input input[type="text"],
+#Sign-input input[type="password"] {
+  width: 300px;
+  margin: 6px;
+  height: 40px;
+  font-size: 16px;
+  background-color: rgba(54, 54, 54, 0.5);
+  color: white;
+  padding: 10px;
+  outline: none;
+}
+#sign-form button {
+  width: 300px;
+  height: 40px;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid red;
+  background-color: rgb(255, 32, 32);
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  margin: 9px;
+}
+#sign-rem {
+  display: flex;
+  width: 300px;
+}
+#sign-rem input[type="checkbox"] {
+  accent-color: red;
+}
+#sign-note {
+  width: 300px;
+  font-size: 14px;
+  color: #c7c7c7;
+  margin: 6px;
+}
+#sign-note a {
+  color: rgb(0, 120, 218);
+  text-decoration: none;
+}
+.signAlink {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 5px;
+}
+#btm {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: flex-end;
+}
+#sign-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 5vw;
+}
+#b1 p {
+  color: #c7c7c7;
+}
+#b2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2vw;
+}
+#b2 a {
+  color: #ffffff;
+  margin: 9px;
+  font-size: 14px;
+}
+#sign-bottom select {
+  background-color: rgba(54, 54, 54, 0.5);
+  border: 1px solid #ffffff;
+  outline: none;
+  color: #ffffff;
+  padding: 5px;
+}
+#sign-bottom select option {
+  background-color: black;
+}

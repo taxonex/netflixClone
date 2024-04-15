@@ -1,0 +1,39 @@
+#footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#lineft {
+  position: absolute;
+  background-color: aliceblue;
+  top: 30px;
+  z-index: -99;
+  height: 1px;
+  width: 100%;
+}
+#footer-social-media {
+  display: flex;
+  border: 1px solid white;
+  background-color: black;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+#footer-social-media a i {
+  margin: 10px;
+}
+#footer-info {
+  text-align: center;
+  margin: 3px;
+}
+#footer-sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#footer-sitemap a {
+  margin: 10px;
+  border: 1px solid;
+  padding: 3px;
+}
