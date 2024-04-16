@@ -42,16 +42,6 @@ This project is a clone of the popular streaming service Netflix. It aims to rep
 1. Start the development server: `npm start`
 2. Open your browser and navigate to `http://localhost:3000`
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature-name`
-3. Make your changes
-4. Commit your changes: `git commit -am 'Add new feature'`
-5. Push to the branch: `git push origin feature-name`
-6. Submit a pull request
 
 ## License
 
