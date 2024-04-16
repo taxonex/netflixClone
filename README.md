@@ -41,7 +41,7 @@ This project is a clone of the popular streaming service Netflix. It aims to rep
 
 1. Start the development server: `npm start`
 2. Open your browser and navigate to `http://localhost:3000`
-
+![Project Image](https://ik.imagekit.io/z13qbehday/ver.jpg?updatedAt=1711458993066)
 
 ## License
 
