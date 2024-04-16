@@ -19,7 +19,7 @@ This project is a clone of the popular streaming service Netflix. It aims to rep
 ## Features
 
 - Dynamic feed of content
-- User authentication
+- Social Sharing
 - Responsive design for various devices
 - Search functionality
 - Categories for easy browsing
