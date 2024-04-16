@@ -36,6 +36,8 @@ This project is a clone of the popular streaming service Netflix. It aims to rep
 1. Clone the repository: `git clone https://github.com/taxonax/netflixClone.git`
 2. Navigate to the project directory: `cd netflixClone`
 3. Install dependencies: `npm install`
+4. [Live-Preview](https://netflix-clone-pi-three-57.vercel.app/)
+
 
 ## Usage
 
