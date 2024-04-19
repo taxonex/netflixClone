@@ -3,7 +3,7 @@ import "./header.css";
 import navLogo from "../../assets/images/Logonetflix.png";
 import { Link } from "react-router-dom";
 import { InfiDTapi } from "../data/cardData";
-import gsap from "gsap";
+
 
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
